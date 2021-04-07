@@ -1,0 +1,12 @@
+dubbo:
+  registry:
+    address: zookeeper://192.168.80.129:2181
+    timeout: 30000
+  protocol:
+    name: dubbo
+    port: 11999
+  application:
+    name: c-name
+    id: c-id
+server:
+  port: 8089

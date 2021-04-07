@@ -1,0 +1,14 @@
+dubbo:
+  registry:
+    id: provider
+    address: zookeeper://192.168.80.129:2181
+  protocol:
+    name: dubbo
+    port: 11999
+  scan:
+    base-packages: com.example.demo.service.impl
+  application:
+    name: p-name
+    id: p-id
+server:
+  port: 8088
